@@ -5,7 +5,7 @@
 <template>
     <nav class="navbar">
         <router-link :to="{ name: 'home' }" class="link"><h1>Home</h1></router-link>
-        <router-link :to="{ name: 'about'}" class="link"><h1>About</h1></router-link>
+        <router-link :to="{ name: 'contact'}" class="link"><h1>Contact</h1></router-link>
     </nav>
 </template>
 
