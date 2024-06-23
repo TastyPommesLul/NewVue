@@ -11,7 +11,8 @@ import NavBar from "@/components/NavBar.vue";
 </template>
 
 
-<style scoped>
+<style scoped lang="scss">
+
 router-view{
     height: 100%;
     width: 100%;
@@ -19,4 +20,5 @@ router-view{
     align-items: center;
     justify-content: center;
 }
+
 </style>
